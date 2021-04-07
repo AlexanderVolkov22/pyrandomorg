@@ -1,6 +1,8 @@
 Simple Asynchronous Python Library For Random.org API
 ===============
 
+![PyPI](https://img.shields.io/pypi/v/0.0.1)
+
 Hello, thanks for choosing my library to work with the [random.org](http://api.random.org) API
 
 [Aiohttp](https://github.com/aio-libs/aiohttp) was used as a web client
