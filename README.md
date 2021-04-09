@@ -23,15 +23,15 @@ EXAMPLES
 ```
 import asyncio
 
-from pyrandomorg.randomorg import randomorg  # import Library
+from pyrandomorg import Pyrandomorg  # import Library
 
-rdorg = randomorg('<Random.org token here>')
+randomorg = Pyrandomorg('<Random.org token here>')
 
 
 async def main():
-    print(await rdorg.GenerateIntegers(1, 2, 3))  # This method generates true random integers within a user-defined range.
-    print(await rdorg.GenerateStrings(6, 4, "dfsfdsfsdfsdggfdsgdfgdf"))  # This method generates true random strings.
-    print(await rdorg.GenerateIntegerSequences(60, 20, 1, 10)) # This method generates uniform or multiform sequences of true random integers within user-defined ranges.
+    print(await randomorg.GenerateIntegers(1, 2, 3))
+    print(await randomorg.GenerateStrings(6, 4, "dfsfdsfsdfsdggfdsgdfgdf"))
+    print(await randomorg.GenerateIntegerSequences(60, 20, 1, 10))
 
 
 loop = asyncio.get_event_loop()

@@ -7,7 +7,7 @@ requirements = ["requests<=2.21.0", "aiohttp<=3.7.3"]
 
 setuptools.setup(
     name="Pyrandomorg",
-    version="0.0.1",
+    version="0.0.2",
     author="AlexanderVolkov22",
     author_email="alexanderedit22@gmail.com",
     description="Simple Asynchronous Python Library For Random.org API",

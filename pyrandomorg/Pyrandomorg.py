@@ -2,7 +2,7 @@ import asyncio
 import aiohttp
 
 
-class randomorg:
+class Pyrandomorg:
     def __init__(self, apikey):
         self.loop = asyncio.get_event_loop()
         self.apikey = apikey
